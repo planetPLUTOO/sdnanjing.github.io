@@ -3,6 +3,7 @@ title:          SenseDeal Nanjing
 description:    ""
 url:            "https://planetplutoo.github.io/sdnanjing.github.io/"
 
+baseurl: "https://planetplutoo.github.io/sdnanjing.github.io/"
 # Google Analytics
 # google_analytics: UA—XXXXXXXX-X
 
