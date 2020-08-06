@@ -14,45 +14,46 @@ author: "Niu"
 
 ```
 .
-├── data																							# 数据目录
-│   ├── season_data																		# 存放拆分后每个季度数据的目录
+├── data                                              # 数据目录
+│   ├── season_data                                   # 存放拆分后每个季度数据的目录
 │   │   ├── season-2.em.csv
 │   │   ├── season-3.em.csv
 │   │   └── season-4.em.csv
-│   ├── season_graph																	# 构建的每个季度的Keywords Graph
+│   ├── season_graph                                  # 构建的每个季度的Keywords Graph
 │   │   ├── season-2-keywords.em.gml
 │   │   ├── season-2-keywords-weighted-edge.em.gml
 │   │   ├── season-3-keywords.em.gml
 │   │   ├── season-3-keywords-weighted-edge.em.gml
 │   │   ├── season-4-keywords.em.gml
 │   │   └── season-4-keywords-weighted-edge.em.gml
-│   ├── season_model																	# 使用node2vec训练得到的keywords embedding
+│   ├── season_model                                  # 使用node2vec训练得到的keywords embedding
 │   │   ├── season-2-model.em.bin
 │   │   ├── season-3-model.em.bin
 │   │   └── season-4-model.em.bin
-│   ├── season_topic																	# 每个季度事件大类的关键词
+│   ├── season_topic                                  # 每个季度事件大类的关键词
 │   │   ├── season-2-topic-keywords.em.txt
 │   │   ├── season-3-topic-keywords.em.txt
 │   │   └── season-4-topic-keywords.em.txt
-│   ├── data.em.csv																		# 清洗分词后的数据
-│   ├── event-keywords.em.txt													# 每个事件的关键词
-│   ├── events.em.txt																	# 聚类后的每个事件
-│   ├── keywords.em.csv																# 每篇新闻的关键词
-│   ├── keywords.em.vocab															# 生成的关键词表
-│   ├── news_em_1year.csv															# 原始数据
-├── build_keywords_graph.py														# 用于构建Keywords Graph
-├── bursty.py																					# burst detection的相关算法
-├── clean_data.py																			# 清洗数据、分词
+│   ├── data.em.csv                                   # 清洗分词后的数据
+│   ├── event-keywords.em.txt                         # 每个事件的关键词
+│   ├── events.em.txt                                 # 聚类后的每个事件
+│   ├── burst.em.txt                                  # 检测到的突发事件
+│   ├── keywords.em.csv                               # 每篇新闻的关键词
+│   ├── keywords.em.vocab                             # 生成的关键词表
+│   ├── news_em_1year.csv                             # 原始数据
+├── build_keywords_graph.py                           # 用于构建Keywords Graph
+├── bursty.py                                         # burst detection的相关算法
+├── clean_data.py                                     # 清洗数据、分词
 ├── clear.py
-├── document_cluster.py																# 用于将文章聚类为Story
+├── document_cluster.py                               # 用于将文章聚类为Story
 ├── evaluate.py
 ├── gather_events.py
 ├── gather.py
-├── keywords_cluster.py																# 使用node2vec训练好的embedding进行聚类
-├── keywords_extract.py																# 抽取关键词
+├── keywords_cluster.py                               # 使用node2vec训练好的embedding进行聚类
+├── keywords_extract.py                               # 抽取关键词
 ├── prepare.py
-├── split_data.py																			# 用于按季度拆分数据
-└── train_node2vec.py																	# 训练node2vec向量
+├── split_data.py	                                    # 用于按季度拆分数据
+└── train_node2vec.py                                 # 训练node2vec向量
 ```
 
 ## 算法原理[1]
