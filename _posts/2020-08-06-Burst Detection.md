@@ -55,7 +55,7 @@ author: "Niu"
 └── train_node2vec.py																	# 训练node2vec向量
 ```
 
-## 算法原理
+## 算法原理[1]
 
 ### 1、抽取关键词
 
@@ -104,7 +104,7 @@ author: "Niu"
 
 ### 4、Burst Detection
 
-将待检测事件所属的branch输入Kleinberg Burst Model 来检测突发事件，并计算突发度。
+将待检测事件所属的branch输入Kleinberg Burst Model\[2\] 来检测突发事件，并计算突发度。
 
 ## 运行流程
 
@@ -163,4 +163,7 @@ author: "Niu"
 输入：步骤6中更新过的Story Tree
 
 输出：检测出突发事件及突发度
+
+\[1\] Liu, Bang, et al. "Growing Story Forest Online from Massive Breaking News." conference on information and knowledge management (2017): 777-785.
+\[2\] Kleinberg, Jon. "Bursty and Hierarchical Structure in Streams." Data Mining and Knowledge Discovery 7.4 (2003): 373-397.
 
