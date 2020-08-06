@@ -14,30 +14,30 @@
 
 ```
 .
-+-- data_process.ipynb                  	#数据处理
-+-- feature_engineer.ipynb					#文本向量化模型	
-+-- EnsembleAD.ipynb						#异常检测模型
-+-- parallel_lscp.py						#并行检测模块
-+-- data									#数据文件夹
-|   +-- resources							#依赖文件
-|   	+-- sgns.financial.char.bz2			#金融语料word2vec预训练模型
-|		+-- news_em_same_company_1year.json	#语料位置检索json
-|   	+-- news_em_1year.csv				#1年东方财富网语料(RAW)
-|   	+-- stop_words.txt					#停用词表
-|   +-- models								#模型
-|   	+-- w2v_model.pkl					#训练完的w2v模型
-|   	+-- tfidf_model.pkl					#训练后的tfidf模型
-|   +-- company_csv							#公司csv数据文件夹
++-- data_process.ipynb               #数据处理
++-- feature_engineer.ipynb					 #文本向量化模型	
++-- EnsembleAD.ipynb						     #异常检测模型
++-- parallel_lscp.py						     #并行检测模块
++-- data									           #数据文件夹
+|   +-- resources							       #依赖文件
+|   	+-- sgns.financial.char.bz2		 #金融语料word2vec预训练模型
+|		+-- news_em_same_company_1year.json	   #语料位置检索json
+|   	+-- news_em_1year.csv				   #1年东方财富网语料(RAW)
+|   	+-- stop_words.txt					   #停用词表
+|   +-- models								       #模型
+|   	+-- w2v_model.pkl					     #训练完的w2v模型
+|   	+-- tfidf_model.pkl					   #训练后的tfidf模型
+|   +-- company_csv							     #公司csv数据文件夹
 |   	+-- east.csv
 |   	+-- 华为.csv
-|   +-- company_title						#公司新闻标题文件夹
+|   +-- company_title						     #公司新闻标题文件夹
 |   	+-- title_east.csv
 |   	+-- title_华为.csv
-|   +-- company_vec							#公司新闻标题向量文件夹
+|   +-- company_vec							     #公司新闻标题向量文件夹
 |   	+-- title_华为_vec.np
-|   +-- company_model						#公司异常检测模型
+|   +-- company_model						     #公司异常检测模型
 |   	+-- 华为.pkl
-|   +-- company_test						#检测新数据
+|   +-- company_test						     #检测新数据
 |   	+-- title_华为_new.txt
 ```
 
