@@ -98,7 +98,7 @@ author: "Niu"
 
 #### 3.3 构建或扩展Story Tree
 
-每个Story Tree记为$\mathcal{S}$，其关键词集合为$\mathcal{C}\_{\mathcal{S}}$。计算$\mathcal{C}\_{\varepsilon}$和$\mathcal{C}\_{\mathcal{S}}$的Jaccard相似度。若与其相似度最高的tree的相似度高于阈值，则加入tree，否则创建新的Story Tree。
+每个Story Tree记为$\mathcal{S}$，其关键词集合为$\mathcal{C}_{\mathcal{S}}$。计算$\mathcal{C}_{\varepsilon}$和$\mathcal{C}_{\mathcal{S}}$的Jaccard相似度。若与其相似度最高的tree的相似度高于阈值，则加入tree，否则创建新的Story Tree。
 
 通过计算新加入事件与Story Tree中各个分支的compatibility, coherence, timePenalty来判断：1）新建分支，或2）扩展已有分支。
 
