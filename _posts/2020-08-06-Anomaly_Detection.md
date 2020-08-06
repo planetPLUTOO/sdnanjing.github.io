@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anomaly Dectection"
+author: "Lin"
+---
+
 # Anomaly Detection
 
 ## 1. 算法流程：
