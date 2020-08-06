@@ -70,7 +70,7 @@ author: "Niu"
 图中不满足以下条件的edge会被删除：
 
 1. 边的共现次数少于阈值（一般为3）
-2. 共现的条件概率($Pr\{w_j|w_i\}及$$Pr\{w_i|w_j\}$)小于阈值(一般为0.15)
+2. 共现的条件概率($Pr\\{w_j\|w_i\\}及$$Pr\\{w_i|w_j\\}$)小于阈值(一般为0.15)
 
 接下来需要在co-occurrence graph上进行Communities Detection
 
