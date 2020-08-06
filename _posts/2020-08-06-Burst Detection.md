@@ -165,5 +165,6 @@ author: "Niu"
 输出：检测出突发事件及突发度
 
 \[1\] Liu, Bang, et al. "Growing Story Forest Online from Massive Breaking News." conference on information and knowledge management (2017): 777-785.
+
 \[2\] Kleinberg, Jon. "Bursty and Hierarchical Structure in Streams." Data Mining and Knowledge Discovery 7.4 (2003): 373-397.
 
