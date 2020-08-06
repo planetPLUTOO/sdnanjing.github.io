@@ -8,7 +8,7 @@ author: "Niu"
 
 ## 算法流程
 
-<img src="/assets/burst detection.png" alt="突发检测流程" style="zoom:40%;" />
+<img src="/sdnanjing.github.io/assets/burst detection.png" alt="突发检测流程" style="zoom:40%;" />
 
 ## 目录结构
 
