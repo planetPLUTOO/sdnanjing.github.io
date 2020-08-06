@@ -52,7 +52,7 @@ author: "Niu"
 ├── keywords_cluster.py                               # 使用node2vec训练好的embedding进行聚类
 ├── keywords_extract.py                               # 抽取关键词
 ├── prepare.py
-├── split_data.py	                                    # 用于按季度拆分数据
+├── split_data.py	                              # 用于按季度拆分数据
 └── train_node2vec.py                                 # 训练node2vec向量
 ```
 
